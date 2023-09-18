@@ -1,0 +1,63 @@
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    border: 0px;
+    padding-top: 75px;
+    background-color: rgb(241, 241, 241);
+    margin-left: 80px;
+}
+.first-image{
+    width: 100%;
+    border-bottom: 15px;
+}
+.para-classone{
+    display: inline-block;
+    width: 100%;
+    line-height: 20px;
+    font-family: Ro;
+    font-weight: bold;
+    vertical-align: top;
+    cursor: pointer;
+}
+.channel-logo-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.a2d-image {
+    width: 87%;
+    border-radius: 50px;
+    vertical-align: top;
+    border-right: 4px;
+}
+.Author-title,
+.Video-views{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+
+}
+.Author-title{
+    margin-top: 13px;
+    margin-bottom: 3px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 15px;
+    row-gap: 35px;
+}
+.final-effect{
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    background-color: rgb(225, 224, 224);
+    color: black;
+    align-items: center;
+    border-radius: 5px;
+    border-top: 5px;
+    line-height: 22px;
+
+    
+}
